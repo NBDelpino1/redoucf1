@@ -7,23 +7,15 @@ $(document).ready(function() {
             closeOnClick: true
         }
     );
-    // $(".dropdown-button").dropdown();
+    $('.slider').slider({full_width: true});
+
+
+
+
 
 });
 
-// Show sideNav
-$('.button-collapse').sideNav('show');
-// Hide sideNav
-$('.button-collapse').sideNav('hide');
-
-$(document).ready(function(){
-    $('.carousel').carousel();
-});
 
 
-$(document).ready(function(){
-    $('.carousel').carousel({dist:0});
-    window.setInterval(function(){$('.carousel').carousel('next')},900)
-});
 
 
