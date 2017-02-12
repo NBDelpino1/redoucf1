@@ -194,7 +194,7 @@ h6 {
 }
 
 .someshit {
-    height:350px;
+    height:300px;
     margin-bottom:20px;
     padding:1em;
     background:
@@ -211,7 +211,7 @@ h6 {
 }
 
 /*.banner {*/
-/*background-image: url("../img/test.jpg");*/
+/*background-image: url("../img/test-Fullscreen.jpg");*/
 /*height:200px;*/
 
 /*background-repeat: no-repeat;*/
@@ -228,9 +228,20 @@ h6 {
 /*}*/
 
 
+table {
+    color: #fff;
+}
 
+.tempgreen {
+    color:#8bc34a;
+}
 
+@media screen and (min-width: 480px) {
 
+    table {
+        color: #000;
+    }
+}
 
 
 
